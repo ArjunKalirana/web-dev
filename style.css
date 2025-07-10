@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Figtree';
+}
+
+.container{
+    height:100vh;
+    width: 100vw;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-container{
+    border-radius: 2%;
+    width:25vw;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+.img-box{
+    padding: 2%;
+}
+.img-box img{
+    
+    width: 100%;              
+    height: auto;             
+    object-fit: contain;      
+    border-radius: 2%;        
+    display: block;           
+    max-width: 100%; 
+}
+
+.button button{
+    padding: 1% 2%;
+    font-weight: 800;
+    background-color:hsl(47, 88%, 63%) ;
+    border-color: hsl(47, 88%, 63%);
+    border-radius: 10%;
+    box-shadow: none;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.button{
+    padding: 3%;
+}
+
+.content h2{
+    color: hsl(0, 0%, 7%);
+    font-weight:800;
+    font-size: 150%;
+    padding-bottom: 3%;
+}
+.content{
+color: hsl(0, 0%, 42%);
+padding: 3%;
+line-height: 25px;
+}
+
+.person-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+    padding: 3%;
+}
+
+.person-img img{
+    width: 10%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 376px) {
+    .container{
+        padding:20% 10%;
+        margin:0px;
+    }
+    .white-container{
+       height: fit-content; 
+       width: auto;
+    }
+}
